@@ -7,11 +7,12 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><router-link to="/" :class="{ active: $route.path === '/' }" @click="handleNavClick">Accueil<br></router-link></li>
-          <li v-if="$route.path === '/'"><a href="#services" @click="scrollToSection">Services</a></li>
-          <li v-if="$route.path === '/'"><a href="#portfolio" @click="scrollToSection">Galerry</a></li>
-          <li v-if="$route.path === '/'"><a href="#contact" @click="scrollToSection">Contact</a></li>
-          <li v-if="$route.path === '/temoignage'"><router-link to="/">Galerry</router-link></li>
+          <li><router-link to="/" :class="{ active: $route.path === '/' }" @click="handleNavClick">Accueil</router-link></li>
+          <li v-if="$route.path === '/'"><a href="#about" @click="scrollToSection">Biographie</a></li>
+          <li v-if="$route.path === '/'"><a href="#portfolio" @click="scrollToSection">Galerie</a></li>
+          <li v-if="$route.path === '/'"><a href="#funeral-info" @click="scrollToSection">Informations Obsèques</a></li>
+          <li v-if="$route.path === '/temoignage'"><router-link to="/">Galerie</router-link></li>
+          <li><router-link to="/carte-memorial" :class="{ active: $route.path === '/carte-memorial' }" @click="handleNavClick">Carte Mémorial</router-link></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list" @click="toggleMobileNav"></i>
       </nav>

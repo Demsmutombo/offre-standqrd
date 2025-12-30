@@ -133,8 +133,7 @@ Veuillez utiliser le questionnaire correspondant à votre formule choisie :
 ## 📞 CONTACT
 
 **IM DIGITAL LABS**  
-**WhatsApp :** +243 991 683 269  
-**Email :** israelmutombo9319@gmail.com
+**Email :** imdigitallabs@gmail.com
 
 ---
 
