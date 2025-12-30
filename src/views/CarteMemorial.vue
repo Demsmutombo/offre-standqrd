@@ -37,7 +37,6 @@
               <div class="carte-separator"></div>
               
               <div class="carte-service-info">
-                <p class="service-date">{{ dateService }}</p>
                 <p class="service-location">{{ lieuService }}</p>
               </div>
             </div>
@@ -85,7 +84,6 @@ export default {
       nom: 'Henock Ngandu Kabadi',
       dates: '15 Mai 1992 - 2 Septembre 2024',
       message: 'Que ton âme trouve la paix éternelle et le réconfort. Repose en paix, cher Henock. Tu nous manqueras profondément.',
-      dateService: 'Cérémonie funéraire : Lundi 9 Septembre 2024 à 10h00',
       lieuService: 'Lieu de sépulture : Nécropole de l\'Eternité',
       photoUrl: '/assets/img/FB_IMG_1726419737492.jpg',
       imageLoaded: false,
@@ -172,7 +170,7 @@ export default {
 }
 
 .carte-section {
-  padding: 80px 20px;
+  padding: 40px 20px;
   background: #000000;
   min-height: calc(100vh - 200px);
   display: flex;
@@ -184,7 +182,7 @@ export default {
   background: #000000;
   border: 3px solid #D4AF37;
   border-radius: 0;
-  padding: 60px 50px;
+  padding: 40px 50px;
   max-width: 700px;
   margin: 0 auto 40px;
   position: relative;
@@ -223,13 +221,13 @@ export default {
   color: #D4AF37;
   text-transform: uppercase;
   letter-spacing: 4px;
-  margin: 0 0 40px 0;
+  margin: 0 0 25px 0;
 }
 
 .carte-image-frame {
-  margin: 30px auto 40px;
-  width: 220px;
-  height: 220px;
+  margin: 20px auto 25px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   border: 4px solid #D4AF37;
   padding: 4px;
@@ -253,7 +251,7 @@ export default {
   font-size: 42px;
   font-weight: 600;
   color: #D4AF37;
-  margin: 0 0 25px 0;
+  margin: 0 0 15px 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   line-height: 1.2;
 }
@@ -262,7 +260,7 @@ export default {
   font-family: 'Times New Roman', 'Georgia', serif;
   font-size: 18px;
   color: #D4AF37;
-  margin: 0 0 35px 0;
+  margin: 0 0 20px 0;
   letter-spacing: 1px;
 }
 
@@ -270,8 +268,8 @@ export default {
   font-family: 'Times New Roman', 'Georgia', serif;
   font-size: 16px;
   color: #D4AF37;
-  line-height: 1.8;
-  margin: 0 0 35px 0;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
   font-style: italic;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
@@ -280,12 +278,12 @@ export default {
   width: 150px;
   height: 2px;
   background: #D4AF37;
-  margin: 30px auto;
+  margin: 20px auto;
   box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
 }
 
 .carte-service-info {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .service-date,
@@ -336,11 +334,11 @@ export default {
 /* Responsive */
 @media (max-width: 768px) {
   .carte-section {
-    padding: 60px 15px;
+    padding: 30px 15px;
   }
 
   .carte-container {
-    padding: 50px 35px;
+    padding: 35px 30px;
     margin: 0 15px 30px;
   }
 
@@ -349,8 +347,8 @@ export default {
   }
 
   .carte-image-frame {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
   }
 
   .carte-title {
@@ -374,7 +372,7 @@ export default {
 
 @media (max-width: 480px) {
   .carte-container {
-    padding: 40px 25px;
+    padding: 30px 20px;
   }
 
   .carte-name {
